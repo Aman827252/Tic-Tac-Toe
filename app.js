@@ -14,9 +14,6 @@ let winner=[
 ]
 
 let flag=true;
-
-
-
 newBtn.addEventListener("click",()=>{
     box.forEach((e)=>{
         e.innerText="";
@@ -51,8 +48,6 @@ let checkWin=()=>{
     }
 }
 
-
-
 box.forEach((e)=>{
     e.addEventListener("click",()=>{
         if(flag==true){
@@ -67,7 +62,6 @@ box.forEach((e)=>{
         checkWin();
     })
 })
-
 
 reset.addEventListener("click",()=>{
     box.forEach((e)=>{
